@@ -128,20 +128,21 @@
       </div>
       <div class="project-grid">
         <article class="project-card">
-          <div class="project-meta">
-            <h3>Análisis SQL para negocio</h3>
-            <p>Construcción de consultas avanzadas y modelos SQL para entender ingresos, retención y segmentos de clientes.</p>
-          </div>
-          <ul class="project-detail">
-            <li><strong>Contexto:</strong> entorno empresarial con base de datos transaccional.</li>
-            <li><strong>Objetivo:</strong> detectar patrones de compra y oportunidades de crecimiento.</li>
-            <li><strong>Dataset:</strong> tablas de ventas, clientes y productos.</li>
-            <li><strong>Proceso:</strong> creación de modelos SQL, vistas analíticas y métricas.</li>
-            <li><strong>Insights:</strong> identificación de segmentos de alto valor y riesgos de churn.</li>
-          </ul>
-          <p class="tech">Tecnologías: SQL (PostgreSQL), funciones de ventana, modelado de datos.</p>
-          <a class="btn small" href="https://github.com/andresdatalyst" target="_blank" rel="noopener">Ver en GitHub</a>
-        </article>
+          <article class="project-card">
+  <div class="project-meta">
+    <h3>Predicción de precios de coches con Machine Learning</h3>
+    <p>Proyecto end-to-end de regresión para estimar el precio de coches usados, incluyendo EDA avanzado, modelado y despliegue interactivo.</p>
+  </div>
+  <ul class="project-detail">
+    <li><strong>Contexto:</strong> mercado de vehículos usados con datos heterogéneos y ruido real.</li>
+    <li><strong>Objetivo:</strong> construir un modelo robusto y reproducible para predecir precios a partir de características del vehículo.</li>
+    <li><strong>Dataset:</strong> datos tabulares de coches (año, kilometraje, marca, motor, accidentes, transmisión).</li>
+    <li><strong>Proceso:</strong> limpieza y winsorización de outliers, EDA univariado/bivariado, ingeniería de features, pipelines de preprocesamiento y validación cruzada.</li>
+    <li><strong>Insights:</strong> brand, milage, accident y horsepower como variables clave; necesidad de log-transformación y control de multicolinealidad.</li>
+  </ul>
+  <p class="tech">Tecnologías: Python, pandas, scikit-learn, XGBoost, Plotly, Streamlit.</p>
+  <a class="btn small" href="https://github.com/andresdatalyst/proyecto7-grupo3-problema-de-regresion" target="_blank" rel="noopener">Ver en GitHub</a>
+</article>
         <article class="project-card">
           <div class="project-meta">
             <h3>EDA y automatización con Python</h3>
@@ -158,35 +159,70 @@
           <a class="btn small" href="https://github.com/andresdatalyst" target="_blank" rel="noopener">Ver en GitHub</a>
         </article>
         <article class="project-card">
-          <div class="project-meta">
-            <h3>Dashboard ejecutivo en Power BI</h3>
-            <p>Cuadro de mando con KPIs clave para seguimiento de ventas y operaciones, con navegación e insights claros.</p>
-          </div>
-          <ul class="project-detail">
-            <li><strong>Contexto:</strong> dirección que necesita visibilidad rápida sobre el rendimiento.</li>
-            <li><strong>Objetivo:</strong> centralizar KPIs y facilitar el seguimiento de objetivos.</li>
-            <li><strong>Dataset:</strong> modelos importados desde SQL y Excel.</li>
-            <li><strong>Proceso:</strong> modelado en Power BI, creación de medidas DAX y diseño del dashboard.</li>
-            <li><strong>Insights:</strong> detección de cuellos de botella y productos clave en el crecimiento.</li>
-          </ul>
-          <p class="tech">Tecnologías: Power BI, DAX, modelado de datos.</p>
-          <a class="btn small" href="https://github.com/andresdatalyst" target="_blank" rel="noopener">Ver en GitHub</a>
-        </article>
+  <div class="project-meta">
+    <h3>Análisis SQL y EDA sobre base de datos Sakila</h3>
+    <p>Análisis integral de una base de datos relacional para estudiar actividad de clientes, catálogo de películas y popularidad del elenco.</p>
+  </div>
+  <ul class="project-detail">
+    <li><strong>Contexto:</strong> base de datos Sakila con múltiples tablas relacionales.</li>
+    <li><strong>Objetivo:</strong> generar métricas clave y extraer insights de negocio mediante SQL y análisis en Python.</li>
+    <li><strong>Dataset:</strong> Sakila (clientes, alquileres, pagos, películas, actores y categorías).</li>
+    <li><strong>Proceso:</strong> construcción de consultas SQL con joins y agregaciones, exportación de dataframes, limpieza y EDA en Google Colab.</li>
+    <li><strong>Insights:</strong> patrones de consumo, clientes más rentables, películas y categorías más populares, actores con mayor presencia.</li>
+  </ul>
+  <p class="tech">Tecnologías: SQL, Python, pandas, Matplotlib, Seaborn, Google Colab.</p>
+  <a class="btn small" href="hhttps://github.com/andresdatalyst/Proyecto-3-Andres_Perez" target="_blank" rel="noopener">Ver en GitHub</a>
+</article>
+
         <article class="project-card">
-          <div class="project-meta">
-            <h3>Análisis espacial GIS</h3>
-            <p>Estudio de datos espaciales para optimizar cobertura, rutas y zonas de influencia mediante mapas y métricas.</p>
-          </div>
-          <ul class="project-detail">
-            <li><strong>Contexto:</strong> necesidad de entender la distribución geográfica de puntos de interés.</li>
-            <li><strong>Objetivo:</strong> optimizar rutas y zonas de servicio.</li>
-            <li><strong>Dataset:</strong> capas espaciales y tablas con coordenadas.</li>
-            <li><strong>Proceso:</strong> carga en PostGIS, análisis espacial y visualización en QGIS.</li>
-            <li><strong>Insights:</strong> propuesta de nuevas zonas y mejora de cobertura.</li>
-          </ul>
-          <p class="tech">Tecnologías: PostgreSQL, PostGIS, QGIS, Python.</p>
-          <a class="btn small" href="https://github.com/andresdatalyst" target="_blank" rel="noopener">Ver en GitHub</a>
-        </article>
+  <div class="project-meta">
+    <h3>Análisis del negocio de Airbnb por ciudades con Power BI</h3>
+    <p>Análisis comparativo del mercado de Airbnb en múltiples ciudades mediante dashboards interactivos y métricas de negocio.</p>
+  </div>
+  <ul class="project-detail">
+    <li><strong>Contexto:</strong> datos públicos de Airbnb con estructuras heterogéneas según ciudad.</li>
+    <li><strong>Objetivo:</strong> identificar patrones de precios, demanda, tipos de alojamiento y perfil de anfitriones entre ciudades.</li>
+    <li><strong>Dataset:</strong> múltiples CSV por ciudad (Londres, Madrid, Tokio, Nueva York, Milán y Sídney).</li>
+    <li><strong>Proceso:</strong> ETL en Power BI, estandarización de datos, creación de medidas DAX y diseño de dashboards por ciudad y global.</li>
+    <li><strong>Insights:</strong> diferencias claras de precios y disponibilidad entre ciudades, concentración por barrios y predominio de hosts profesionales en mercados maduros.</li>
+  </ul>
+  <p class="tech">Tecnologías: Power BI, DAX, Excel, SQL básico, Git, GitHub.</p>
+  <a class="btn small" href="https://github.com/andresdatalyst/P6-Grupo2-Power_BI-Analysis" target="_blank" rel="noopener">Ver en GitHub</a>
+</article>
+
+<article class="project-card">
+  <div class="project-meta">
+    <h3>AppBiblioteca — Gestión de biblioteca con Angular</h3>
+    <p>Aplicación web para la gestión de libros, socios y préstamos con autenticación y base de datos en la nube.</p>
+  </div>
+  <ul class="project-detail">
+    <li><strong>Contexto:</strong> proyecto de aprendizaje orientado a desarrollo web moderno con frontend y backend gestionado.</li>
+    <li><strong>Objetivo:</strong> construir una aplicación funcional con autenticación, control de acceso y operaciones CRUD completas.</li>
+    <li><strong>Dataset:</strong> datos persistidos en Cloud Firestore (libros, socios y préstamos).</li>
+    <li><strong>Proceso:</strong> desarrollo en Angular con componentes y servicios, integración con Firebase Auth y Firestore, uso de guards y formularios reactivos.</li>
+    <li><strong>Insights:</strong> implementación de flujos reales de autenticación, gestión de estados y consultas específicas sobre datos en tiempo real.</li>
+  </ul>
+  <p class="tech">Tecnologías: Angular 12, TypeScript, Firebase (Auth & Firestore), Angular Material, Bootstrap.</p>
+  <a class="btn small" href="https://github.com/andresdatalyst/biblioteca-angular" target="_blank" rel="noopener">Ver en GitHub</a>
+</article>
+
+<article class="project-card">
+  <div class="project-meta">
+    <h3>Altair Eventos — Gestión de eventos audiovisuales</h3>
+    <p>Aplicación web backend-driven para la gestión integral de eventos audiovisuales con control de accesos y reglas de negocio.</p>
+  </div>
+  <ul class="project-detail">
+    <li><strong>Contexto:</strong> proyecto final de desarrollo web orientado a un entorno profesional real.</li>
+    <li><strong>Objetivo:</strong> diseñar y desarrollar una aplicación robusta para crear eventos y asignar recursos con control por roles.</li>
+    <li><strong>Dataset:</strong> base de datos relacional MySQL (usuarios, empresas, trabajadores, material, localizaciones y eventos).</li>
+    <li><strong>Proceso:</strong> arquitectura MVC con Spring Boot, persistencia con JPA, implementación de reglas de negocio y seguridad con Spring Security.</li>
+    <li><strong>Insights:</strong> control de integridad de datos, validaciones complejas y gestión de permisos según rol de usuario.</li>
+  </ul>
+  <p class="tech">Tecnologías: Java 17, Spring Boot, Spring Security, JPA/Hibernate, MySQL, Thymeleaf, Bootstrap.</p>
+  <a class="btn small" href="https://github.com/andresdatalyst/altair-eventos-audiovisuales-TFG" target="_blank" rel="noopener">Ver en GitHub</a>
+</article>
+
+
       </div>
     </section>
 
