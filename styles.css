@@ -612,3 +612,10 @@ img {
 .project-meta ul {
   margin-bottom: 12px;
 }
+
+.project-card {
+  min-height: 480px; /* Ajusta según tu contenido más alto */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
