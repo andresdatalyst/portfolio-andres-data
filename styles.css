@@ -619,3 +619,10 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.project-image {
+  height: 180px; /* altura fija */
+  width: 100%;
+  object-fit: cover; /* mantiene proporción y recorta si es necesario */
+  border-radius: 8px;
+}
